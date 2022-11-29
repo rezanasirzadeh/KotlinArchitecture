@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_note"
+    app:startDestination="@id/notesListFragment">
+
+    <fragment
+        android:id="@+id/notesListFragment"
+        android:name="ir.digireza.s1_livedata.room.pages.NotesListFragment"
+        android:label="Notes List"
+        tools:layout="@layout/fragment_notes_list">
+        <action
+            android:id="@+id/actionListToAdd"
+            app:destination="@id/addNoteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="ir.digireza.s1_livedata.room.pages.AddNoteFragment"
+        android:label="Add new note"
+        tools:layout="@layout/fragment_add_note"/>
+</navigation>

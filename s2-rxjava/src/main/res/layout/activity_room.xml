@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".room.RoomActivity">
+    <!--Title-->
+    <EditText
+        android:id="@+id/titleEdt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_white_rounded"
+        android:fontFamily="@font/almarai"
+        android:hint="Write name here ..."
+        android:padding="15dp"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/gray"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--Buttons-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/almarai"
+        android:paddingVertical="15dp"
+        android:stateListAnimator="@null"
+        android:text="SAVE"
+        android:textColor="@color/dark"
+        app:backgroundTint="@color/yellow"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/titleEdt"
+        app:layout_constraintStart_toStartOf="@+id/titleEdt"
+        app:layout_constraintTop_toBottomOf="@+id/titleEdt" />
+    <!--List-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submit"
+        tools:listitem="@layout/item_notes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

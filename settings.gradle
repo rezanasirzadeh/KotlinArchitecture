@@ -1,0 +1,27 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "Kotlin Architecture"
+include ':app'
+include ':s1-room'
+include ':s1-rxjava'
+include ':s1-retrofit'
+include ':s1-navigation'
+include ':s1-coroutine'
+include ':s1-hilt'
+include ':s1-viewmodel'
+include ':s1-livedata'
+include ':s1-datastore'
+include ':s1-project'
+include ':s1-koin'
+include ':s1-paging'
+include ':s2-flow'
+include ':s2-rxjava'
+include ':s3-mvp'
+include ':s4-mvvm'

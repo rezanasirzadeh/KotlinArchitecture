@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/s1-coroutine" />
+            <option value="$PROJECT_DIR$/s1-datastore" />
+            <option value="$PROJECT_DIR$/s1-hilt" />
+            <option value="$PROJECT_DIR$/s1-koin" />
+            <option value="$PROJECT_DIR$/s1-livedata" />
+            <option value="$PROJECT_DIR$/s1-navigation" />
+            <option value="$PROJECT_DIR$/s1-paging" />
+            <option value="$PROJECT_DIR$/s1-project" />
+            <option value="$PROJECT_DIR$/s1-retrofit" />
+            <option value="$PROJECT_DIR$/s1-room" />
+            <option value="$PROJECT_DIR$/s1-rxjava" />
+            <option value="$PROJECT_DIR$/s1-viewmodel" />
+            <option value="$PROJECT_DIR$/s2-flow" />
+            <option value="$PROJECT_DIR$/s2-rxjava" />
+            <option value="$PROJECT_DIR$/s3-mvp" />
+            <option value="$PROJECT_DIR$/s4-mvvm" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
